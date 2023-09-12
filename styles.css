@@ -1,0 +1,168 @@
+*{
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin: 0px 100px;
+}
+.logo{
+    position: relative;
+    left: 90px;
+    cursor: pointer;
+}
+nav{
+    background-color: rgb(32, 31, 31);
+    height: 60px;
+    padding: 10px;
+
+}
+nav .navelements{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlist ul li{
+    display: inline-block;
+    padding: 0px 18px;
+}
+.navlist ul li a{
+    color: rgb(168, 160, 160);
+    transition: 0.5s ease;
+}
+.navlist ul li a:hover{
+    color: white;
+}
+.icons{
+    position: relative;
+    right: 100px;
+    
+}
+.icons img{
+    padding: 0px 20px;
+    cursor: pointer;
+    color: rgb(100, 98, 98);
+    transition: 0.5s ease;
+}
+.icons img:hover{
+    color: white;
+}
+.center{
+    background-color:black;
+    box-sizing: border-box;
+    padding-top:10px;
+    padding: 10px;
+    margin: 0 ;
+    text-align: center;
+    
+}
+.center h1{
+    margin-left: -20px;
+    color:#fff;
+    font-weight: 800;
+    font-family: arial;
+    letter-spacing: 0.03em;
+}
+.center p{
+    color: #bd1c26;
+    font-weight: 700;
+    font-family: arial;
+    letter-spacing: 0.12em;
+    font-size: 14px;
+}
+.center h3{
+    color: #fff;
+    margin-top: 12px;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 0.02em;
+}
+.links{
+    margin-top: 22px;
+}
+.first{
+    margin-top: 40px;
+
+}
+.section1{
+    color:black;
+    padding: 50px;
+    margin-top: 12px;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background-color:cadetblue;
+}
+.section1 h1{
+    font-size: 80px;
+}
+.section1 h3{
+    color: gray;
+    font-size:50px ;
+}
+
+.section2{
+    margin: 0;
+    display: grid;
+    background-color:whitesmoke;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    text-align: center;
+}
+.one h1{
+    font-size: 50px;
+}
+.one h3{
+    color: gray;
+    font-size: 30px;
+
+}
+.two{
+    background-color: black;
+}
+.two h1{
+    font-size: 50px;
+    color: white;
+}
+.two h3{
+    color: gray;
+    font-size: 30px;
+}
+.section3{
+    margin: 0;
+    display: grid;
+    background-color: whitesmoke;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    text-align: center;
+}
+.three{
+    background-color: black;
+}
+.three h1{
+    font-size: 50px;
+    color: white;
+
+}
+.three h3{
+    color: gray;
+    font-size: 30px;
+}
+.four h1{
+    font-size: 50px;
+}
+.four h3{
+    color: gray;
+    font-size: 30px;
+}
